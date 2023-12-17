@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register</title>
+</head>
+
+<body style="margin-bottom: 200px; background-color: black;">
+
+  <div style="text-align: center; background-color: black;">
+    <img src="assets/images/benz1.png" alt="img1" style="width: 80px; height: 80px; margin: 10px 10px; ">
+    <br>
+    <strong style="font-size: 30px; color: white;">Register</strong>
+  </div>
+
+  <div style="text-align: center; padding: 30px 30px; background-color: black;">
+
+    <form action="action_page.php" method="post">
+      <div>
+        <label for="fname" style="color: white;">First name</label>
+        <input type="text" id="fname" name="fname" placeholder="firstname" required>
+      </div>
+      <br>
+      <div>
+        <label for="lname" style="color: white;">Last name </label>
+        <input type="text" id="lname" name="lname" placeholder="lastname" required>
+      </div>
+      <br>
+      <div>
+        <label for="dob" style="color: white;">Date of birth</label>
+        <input type="date" id="dob" name="dob" placeholder="DD-MM-YYYY" required>
+      </div>
+      <br>
+      <div>
+
+        <label for="gender" style="color: white;">Gender</label>
+        <input type="radio" id="gender" name="gender" required>
+        <label for="" style="color: white;">Male</label>
+        <input type="radio" id="gender" name="gender" required>
+        <label for="" style="color: white;">Female</label>
+
+      </div>
+      <br>
+      <div>
+        <label for="email" style="color:white;"> Email </label>
+        <input type="text" id="email" name="email" placeholder="@gmail.com" required>
+      </div>
+      <br>
+      <div>
+        <label for="gp" style="color: white;"> Generate Password </label>
+        <input type="password" id="gp" name="gp" placeholder="password" required>
+      </div>
+      <br>
+      <div>
+        <label for="num" style="color: white;">Phone Number</label>
+        <input type="text" name="num" id="num" placeholder="+91 0000000000">
+      </div>
+      <br>
+      <div>
+        <input type="checkbox" name="check" id="check" required>
+        <label for="checkbox" style="color: white;">Agree terms and conditions</label>
+      </div>
+      <br>
+      <div>
+        <input type="submit" name="" id="">
+      </div>
+      <br>
+      <div>
+        <label for="" style="color: white;">You Have Already Account <a href="http://127.0.0.1:5500/loginpage.html"
+            target="_blank" style="text-decoration: none; color: white;"><span><strong>Login</strong></span></a></label>
+      </div>
+
+    </form>
+
+  </div>
+
+</body>
+
+</html>
